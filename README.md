@@ -1,6 +1,6 @@
 # 🏢 Stock Management System (Python)
 
-A **desktop-based Stock Management System** built using **Python**, **Tkinter** for the GUI, and **SQLite3** for the database. The system provides separate functionalities for **Admin** and **Employee** users, making it easy to manage inventory, suppliers, employees, and billing.
+A **desktop-based Stock Management System** built using **Python**, **Tkinter** for the GUI, and **SQLite3** for the database. The system provides separate functionalities for **Admin** and **Employee**, making it easy to manage inventory, suppliers, employees, and billing.
 
 ---
 
@@ -23,18 +23,66 @@ A **desktop-based Stock Management System** built using **Python**, **Tkinter** 
 ---
 
 ## **Technologies Used**
-- **Python** – Programming language.
-- **Tkinter** – For building desktop GUI.
-- **SQLite3** – Lightweight database for storing stock, employee, supplier, and billing data.
+- **Python 3.x** – Programming language
+- **Tkinter** – GUI library for desktop applications
+- **SQLite3** – Lightweight database for storing stock, employee, supplier, and billing data
 
 ---
 
-## **How to Run the Project**
-1. Make sure you have **Python 3.x** installed.  
-2. Install required libraries (Tkinter is included with Python, SQLite3 is standard).  
-3. Clone or download the project folder.  
-4. Open terminal or command prompt in the project folder.  
-5. Run the main Python file:
+## **Installation**
 
+1. Install **Python 3.x**: [Python Downloads](https://www.python.org/downloads/)
+
+2. Install required libraries (Tkinter and SQLite3 are usually included):
 ```bash
+# Tkinter installation (if not included)
+# Linux (Ubuntu/Debian)
+sudo apt-get install python3-tk
+# Windows and Mac usually include Tkinter by default
+
+
+
+How to Run the Project
+
+Clone or download the repository.
+
+Open terminal or command prompt in the project folder.
+
+Run the main Python file:
+
 python main.py
+
+
+Login as Admin or Employee:
+
+Admin: Full access to manage stock, employees, suppliers, and bills
+
+Employee: Can purchase items and generate bills
+
+Database
+
+The system uses SQLite3 to store:
+
+Stock items
+
+Supplier details
+
+Employee details
+
+Bills and transactions
+
+Usage
+
+Admin logs in to manage inventory, employees, and suppliers.
+
+Employee logs in to sell items and generate bills.
+
+Bills can be saved and retrieved for records.
+
+Author
+
+Sahil Sunil Pakhare
+Email: sahilpakhare17@gmail.com
+
+# SQLite3 comes with Python
+python -c "import sqlite3; print('SQLite3 is installed')"
